@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Dev / test artefacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data files (not part of the app)
+*.csv
+*.txt
+!requirements.txt
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
