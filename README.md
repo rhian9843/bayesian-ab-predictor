@@ -1,5 +1,6 @@
 # Bayesian A/B Test Outcome Predictor
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-streamlit.app-FF4B4B?style=flat-square&logo=streamlit)](https://bayesian-ab-predictor.streamlit.app)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.57-red?style=flat-square&logo=streamlit)](https://streamlit.io)
 [![Tests](https://img.shields.io/badge/tests-69%20passed-brightgreen?style=flat-square)]()
@@ -77,9 +78,11 @@ A traditional test runs in parallel for comparison:
 
 ## Quick Start
 
+**Live app:** [bayesian-ab-predictor.streamlit.app](https://bayesian-ab-predictor.streamlit.app)
+
 **Option 1 — pip**
 ```bash
-git clone https://github.com/yourusername/bayesian-ab-predictor
+git clone https://github.com/rhian9843/bayesian-ab-predictor
 cd bayesian-ab-predictor
 pip install -r requirements.txt
 streamlit run app.py
